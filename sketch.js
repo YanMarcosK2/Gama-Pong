@@ -55,7 +55,7 @@ function draw() {
     verificaColisaoBorda();
     mostraRaquete(xRaquete, yRaquete);
     movimentaMinhaRaquete();
-    //verificaColisaoRaquete();
+    verificaColisaoRaquete();
     verificaColisaoRaqueteBiblioteca(xRaquete, yRaquete);
     mostraRaquete(xRaqueteOponente, yRaqueteOponente);
     movimentaRaqueteOponente();
